@@ -54,16 +54,20 @@ h1, h2 {
 }
 
 #page1 { z-index: 14; }
-#page2 { z-index: 13; transform: rotateY(180deg); }
-#page3 { z-index: 12; transform: rotateY(180deg); }
-#page4 { z-index: 11; transform: rotateY(180deg); }
-#page5 { z-index: 10; transform: rotateY(180deg); }
-#page6 { z-index: 9; transform: rotateY(180deg); }
-#page7 { z-index: 8; transform: rotateY(180deg); }
-#page8 { z-index: 7; transform: rotateY(180deg); }
-#page9 { z-index: 6; transform: rotateY(180deg); }
-#page10 { z-index: 5; transform: rotateY(180deg); }
-#page11 { z-index: 4; transform: rotateY(180deg); }
-#page12 { z-index: 3; transform: rotateY(180deg); }
-#page13 { z-index: 2; transform: rotateY(180deg); }
-#page14 { z-index: 1; transform: rotateY(180deg); }
+#page2 { z-index: 13; }
+#page3 { z-index: 12; }
+#page4 { z-index: 11; }
+#page5 { z-index: 10; }
+#page6 { z-index: 9; }
+#page7 { z-index: 8; }
+#page8 { z-index: 7; }
+#page9 { z-index: 6; }
+#page10 { z-index: 5; }
+#page11 { z-index: 4; }
+#page12 { z-index: 3; }
+#page13 { z-index: 2; }
+#page14 { z-index: 1; }
+
+.flipped {
+    transform: rotateY(-180deg);
+}
